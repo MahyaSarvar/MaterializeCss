@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <nav class="cyan darken-4">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo left">Logo</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger show-on-large right">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="hide-on-med-and-down right">
+                    <li>
+                        <a href="users.html">Users</a>
+                    </li>
+                    <li>
+                        <a href="comments.html">Comments</a>
+                    </li>
+                    <li>
+                        <a href="categories.html">Categories</a>
+                    </li>
+                    <li>
+                        <a href="posts.html">Posts</a>
+                    </li>
+                    <li class="active">
+                        <a href="index.html">Dashboard</a>
+                    </li>
+                </ul>
+                <ul class="sidenav" id="mobile-demo">
+                    <li>
+                        <div class="user-view">
+                            <div class="background">
+                                <img src="./img/jeremy-bishop-uAfZBP-GtiA-unsplash(1).jpg" alt="">
+                            </div>
+                            <a href="#">
+                                <img src="./img/pngwing.com(1).png" alt="" class="circle">
+                            </a>
+                            <a href="#">
+                                <span class="name white-text">Mahya Sarvar</span>
+                            </a>
+                            <a href="#">
+                                <span class="email white-text">Mahya@ggmail.com</span>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="index.html">
+                            <i class="material-icons">dashboard</i>Dashboard
+                        </a>
+                    </li>
+                    <li>
+                        <a href="posts.html">
+                            Posts
+                        </a>
+                    </li>
+                    <li>
+                        <a href="categories.html">
+                            Categories
+                        </a>
+                    </li>
+                    <li>
+                        <a href="comments.html">
+                            Comments
+                        </a>
+                    </li>
+                    <li>
+                        <div class="divider"></div>
+                    </li>
+                    <li>
+                        <a class="subheader">Setting</a>
+                    </li>
+                    <li>
+                        <a href="login.html" class="wave-effect">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="section center">
+        <div class="row">
+            <div class="col s12 m6 l3">
+                <div class="card-panel cyan darken-3 white-text center counter">
+                    <i class="material-icons medium">insert_emoticon</i>
+                    <h5>Monthly Sales</h5>
+                    <h3 class="count" data-target="34540">0</h3>
+                    <div class="progress cyan darken-4">
+                        <div class="determinate white" style="width: 40%;"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l3">
+                <div class="card-panel cyan darken-3 white-text center">
+                    <i class="material-icons medium">mode_edit</i>
+                    <h5>Posts</h5>
+                    <h3 class="count" data-target="308">0</h3>
+                    <div class="progress cyan darken-4">
+                        <div class="determinate white" style="width: 20%;"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l3">
+                <div class="card-panel cyan darken-3 white-text center counter">
+                    <i class="material-icons medium">mode_comment</i>
+                    <h5>Posts</h5>
+                    <h3 class="count" data-target="5600">0</h3>
+                    <div class="progress cyan darken-4">
+                        <div class="determinate white" style="width: 80%;"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l3">
+                <div class="card-panel cyan darken-3 white-text center counter">
+                    <i class="material-icons medium">supervisor_account</i>
+                    <h5>Users</h5>
+                    <h3 class="count" data-target="270">0</h3>
+                    <div class="progress cyan darken-4">
+                        <div class="determinate white" style="width: 30%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section cyan darken-3">
+        <div class="row">
+            <div class="col s12 m6 l8">
+                <ul class="collapsible white">
+                    <li class="active">
+                        <div class="collapsible-header">
+                            <i class="material-icons">filter_drama</i>First
+                        </div>
+                        <div class="collapsible-body">
+                            <span>Lorem ipsum dolor sit amet consectetur adipisicing.</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header">
+                            <i class="material-icons">room</i>First
+                        </div>
+                        <div class="collapsible-body">
+                            <span>Lorem ipsum dolor sit amet consectetur adipisicing.</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header">
+                            <i class="material-icons">whatshot</i>Third
+                        </div>
+                        <div class="collapsible-body">
+                            <span>Lorem ipsum dolor sit amet consectetur adipisicing.</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="collection with-header">
+                    <li class="collection-header">
+                        <h5>Recent Comments</h5>
+                    </li>
+                    <li class="collection-item avatar">
+                        <img src="./img/pngwing.com(1).png" alt="" class="circle">
+                        <span class="title">Ali Qandil</span>
+                        <p class="truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, repudiandae.</p>
+                        <a href="#" class="approve green-text">Confirm</a>
+                        <a href="#" class="deny red-text">Delete</a>
+                    </li>
+                    <li class="collection-item avatar">
+                        <img src="./img/user.png" alt="" class="circle">
+                        <span class="title">Mahya Sarvar</span>
+                        <p class="truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, repudiandae.</p>
+                        <a href="#" class="approve green-text">Confirm</a>
+                        <a href="#" class="deny red-text">Delete</a>
+                    </li>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="row">
+            <div class="col s12 l8 m6">
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title">Recent Posts</span>
+                        <table class="striped">
+                            <thead>
+                                <tr>
+                                    <th>Title</th>
+                                    <th>Categories</th>
+                                    <th>Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>First Post</td>
+                                    <td>Lorem Ipsum</td>
+                                    <td><a href="#" class="btn cyan darken-3">More</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Second Post</td>
+                                    <td>Lorem Ipsum</td>
+                                    <td><a href="#" class="btn cyan darken-3">More</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Third Post</td>
+                                    <td>Lorem Ipsum</td>
+                                    <td><a href="#" class="btn cyan darken-3">More</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="col s112 l4 m6">
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title">New Task</span>
+                        <form>
+                            <div class="input-field">
+                                <input type="text" placeholder="make a new task ...">
+                            </div>
+                        </form>
+                        <ul class="collection">
+                            <li class="collection-item">
+                                <div>
+                                    First Task <a href="#" class="secondary-content delete">
+                                        <i class="material-icons">close</i>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="collection-item">
+                                <div>
+                                    Second Task <a href="#" class="secondary-content delete">
+                                        <i class="material-icons">close</i>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="collection-item">
+                                <div>
+                                    Third Task <a href="#" class="secondary-content delete">
+                                        <i class="material-icons">close</i>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="section cyan darken-3 white-text center">
+        <h5>Weblog.com &copy; 2022</h5>
+    </footer>
+
+    <div class="fixed-action-btn">
+        <a class="btn-floating btn-large cyan darken-4">
+            <i class="material-icons">add</i>
+        </a>
+        <ul>
+            <li>
+                <a href="#post-modal" class="modal-trigger btn-floating cyan darken-3">
+                    <i class="material-icons">mode_edit</i>
+                </a>
+            </li>
+            <li>
+                <a href="#category-modal" class="modal-trigger btn-floating cyan darken-3">
+                    <i class="material-icons">folder</i>
+                </a>
+            </li>
+            <li>
+                <a href="#user-modal" class="modal-trigger btn-floating cyan darken-3">
+                    <i class="material-icons">supervisor_account</i>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="modal" id="post-modal">
+        <div class="modal-content">
+            <h5>New Post</h5>
+            <form>
+                <div class="input-field">
+                    <input type="text" id="title">
+                    <label for="title">title</label>
+                </div>
+                <div class="input-field">
+                    <select>
+                        <option value="" disabled selected>select a category</option>
+                        <option value="1">First Category</option>
+                        <option value="2">Second Category</option>
+                        <option value="3">Third Category</option>
+                    </select>
+                    <label>Category</label>
+                </div>
+                <div class="input-field">
+                    <textarea name="body" id="body" cols="30" rows="10" class="materialize-textarea"></textarea>
+                </div>
+            </form>
+        </div>
+        <div class="modal-footer">
+            <a href="#" class="modal-action modal-close btn cyan darken-3 white-text">Send</a>
+        </div>
+    </div>
+
+    <div class="modal" id="category-modal">
+        <div class="modal-content">
+            <h5>New Category</h5>
+            <form>
+                <div class="input-field">
+                    <input type="text" id="title">
+                    <label for="title">title</label>
+                </div>
+            </form>
+        </div>
+        <div class="modal-footer">
+            <a href="#" class="modal-action modal-close btn cyan darken-3 white-text">Send</a>
+        </div>
+    </div>
+
+    <div class="modal" id="user-modal">
+        <div class="modal-content">
+            <h5>Add Users</h5>
+            <form>
+                <div class="input-field">
+                    <input type="text" id="name">
+                    <label for="name">name</label>
+                </div>
+                <div class="input-field">
+                    <input type="email" id="email">
+                    <label for="email">email</label>
+                </div>
+                <div class="input-field">
+                    <input type="password" id="password">
+                    <label for="password">password</label>
+                </div>
+                <div class="input-field">
+                    <input type="password" id="password2">
+                    <label for="password2">confirm password</label>
+                </div>
+            </form>
+        </div>
+        <div class="modal-footer">
+            <a href="#" class="modal-action modal-close btn cyan darken-3 white-text">Send</a>
+        </div>
+    </div>
+
+    <script src="https://cdn.ckeditor.com/ckeditor5/35.0.1/classic/ckeditor.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
